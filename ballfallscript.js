@@ -10,7 +10,7 @@ function moveLeft() {
     window.getComputedStyle(character).getPropertyValue("left")
   );
   if (left > 0) {
-    character.style.left = left - 2 + "px";
+    character.style.left = left - 1 + "px";
   }
 }
 
@@ -19,7 +19,7 @@ function moveRight() {
     window.getComputedStyle(character).getPropertyValue("left")
   );
   if (left < 380) {
-    character.style.left = left + 2 + "px";
+    character.style.left = left + 1 + "px";
   }
 }
 
